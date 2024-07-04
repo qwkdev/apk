@@ -1,7 +1,11 @@
 {
-  "template": ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."]],
-  "data": [
-    ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."]],
-    ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."]]
-  ]
+	"template": ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."]],
+	"data": [
+		["spotify", "Spotify", "8.9.52.552", "04/07/24", "LiteApks", ["Premium Unlocked"]],
+		["pokemon-go", "Pokemon Go", "1.158.0", "04/07/24", "PGSharp", ["Teleport", "Joystick", "Auto Walk", "Enhanced Throw", "Nearby Radar", "More..."]],
+		["geometry-dash", "Geometry Dash", "2.2.142", "04/07/24", "AN1", ["All skins", "Infinite Currency"]],
+		["stickman-hook", "Stickman Hook", "9.5.0", "04/07/24", "ApkMody", ["All skins", "VIP Unlocked"]],
+		["subway-surfers", "Subway Surfers", "3.31.3", "04/07/24", "LiteApks", ["Free Shopping", "Unlimited Everything", "No Die", "Speed Hacks", "Multi Jump", "No Clip", "No Coin Pickup", "More..."]],
+		[]
+	]
 }
