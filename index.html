@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>QAPK</title>
+	<title>QAPK</title>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..800&display=swap" rel="stylesheet">
 	<style>
 		body {
@@ -10,8 +10,8 @@
 		}
 		#grid {
 			display: grid;
-            gap: 8vw;
-            margin: 8vw;
+			gap: 8vw;
+			margin: 8vw;
 			width: 84vw;
 			grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
 		}
@@ -107,7 +107,7 @@
 	<div id="grid">
 	</div>
 
-    <script>
+	<script>
 		fetch("https://raw.githubusercontent.com/qwkdev/apk/main/data.json").then((res) => { if (!res.ok) { throw new Error(`HTTP error! Status: ${res.status}`); } return res.json(); }).then((json) => 
 			console.log(json)
 		).catch((error) => console.error("Unable to fetch json:", error));
@@ -136,6 +136,6 @@
 
 			document.getElementById("grid").appendChild(app);
 		});
-    </script>
+	</script>
 </body>
 </html>
