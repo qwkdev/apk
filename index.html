@@ -1,1 +1,141 @@
-<h1>Hello, World!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QAPK</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..800&display=swap" rel="stylesheet">
+	<style>
+		body {
+			margin: 0;
+			background: #080810;
+		}
+		#grid {
+			display: grid;
+            gap: 8vw;
+            margin: 8vw;
+			width: 84vw;
+			grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+		}
+		.app {
+			background: rgba(245, 245, 255, .12);
+			border: 5px solid rgba(255, 255, 255, .15);
+			border-radius: 50px;
+			padding: 5%;
+
+			p { 
+				margin: 0;
+				color: #ffffff;
+				font-family: "Montserrat";
+				font-weight: 700;
+			}
+			.info {
+				display: grid;
+				width: 100%;
+				aspect-ratio: 10 / 3;
+				grid-template-columns: 30% 70%;
+				grid-template-rows: 110px calc(100% - 110px);
+
+				img {
+					width: 100%;
+					aspect-ratio: 1 / 1;
+					border-radius: 18%;
+					grid-area: 1 / 1 / 3 / 2;
+				}
+
+				.name {
+					height: 80px;
+					margin: 0 25px;
+					font-size: 50px;
+					line-height: 80px;
+					grid-area: 1 / 2 / 2 / 3;
+				}
+				.data {
+					height: 30px;
+					margin: 68px 25px 10px;
+					font-size: 20px;
+					line-height: 30px;
+					grid-area: 1 / 2 / 2 / 3;
+
+					bullet::before {
+						content: "•";
+						font-size: 25px;
+						margin: 0 15px;
+					}
+				}
+				a {
+					width: 92%;
+					height: 120px;
+					margin: 0 4%;
+					grid-area: 2 / 2 / 3 / 3;
+					text-decoration: none;
+					border-radius: 30px;
+					color: #ffffff;
+					text-align: center;
+					font-family: "Montserrat";
+					font-weight: 800;
+					font-size: 60px;
+					line-height: 117px;
+					transition: .4s;
+					border: 5px solid #00ff00;
+					background: #00ff0077;
+					box-shadow: 0 0 50px -10px #00ff0077;
+				}
+				a:hover {
+					background: #00ff0099;
+					box-shadow: 0 0 50px -10px #00ff00;
+				}
+			}
+			.mods {
+				margin-top: 5%;
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				background: rgba(245, 245, 255, .09);
+				border: 5px solid rgba(255, 255, 255, .12);
+				border-radius: 25px;
+
+				p {
+					width: 100%;
+					text-align: center;
+					font-size: 27px;
+					height: 50px;
+					line-height: 50px;
+				}
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="grid">
+	</div>
+
+    <script>
+		fetch("https://raw.githubusercontent.com/qwkdev/apk/main/data.json").then((res) => { if (!res.ok) { throw new Error(`HTTP error! Status: ${res.status}`); } return res.json(); }).then((json) => 
+			console.log(json)
+		).catch((error) => console.error("Unable to fetch json:", error));
+
+		json.forEach(data => {
+			var app = document.createElement("div");
+			app.classList.add("app");
+			
+			var info = document.createElement("div");
+			info.classList.add("info");
+			info.innerHTML = `
+<img src="https://raw.githubusercontent.com/qwkdev/apk/main/img/${data[0]}.jpg">
+<p class="name">${data[1]}</p>
+<p class="data">v${data[2]}<bullet></bullet>${data[3]}<bullet></bullet>${data[4]}</p>
+<a href="https://raw.githubusercontent.com/qwkdev/apk/main/apk/${data[0]}.apk" download>Download</a>`
+			app.appendChild(info);
+			
+			var mods = document.createElement("div");
+			mods.classList.add("mods");
+			data[5].forEach(mod => {
+				var modtxt = document.createElement("p");
+				modtxt.innerText = mod;
+				mods.appendChild(modtxt);
+			});
+			app.appendChild(mods);
+
+			document.getElementById("grid").appendChild(app);
+		});
+    </script>
+</body>
+</html>
