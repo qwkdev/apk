@@ -108,9 +108,10 @@
 	</div>
 
 	<script>
-		fetch("https://raw.githubusercontent.com/qwkdev/apk/main/data.json").then((res) => { if (!res.ok) { throw new Error(`HTTP error! Status: ${res.status}`); } return res.json(); }).then((json) => 
-			console.log(json)
-			console.log(json.data)																					       
+		fetch("https://raw.githubusercontent.com/qwkdev/apk/main/data.json").then((res) => { if (!res.ok) { throw new Error(`HTTP error! Status: ${res.status}`); } return res.json(); }).then((rjson) => 
+			console.log(rjson)
+			console.log(rjson.data)
+			var json = rjson.data
 		).catch((error) => console.error("Unable to fetch json:", error));
 
 		json.forEach(data => {
