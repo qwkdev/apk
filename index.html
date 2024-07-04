@@ -112,6 +112,7 @@
 			console.log(rjson);
 			console.log(rjson.data);
 			var json = rjson.data;
+			return json;
 		}).catch((error) => console.error("Unable to fetch json:", error));
 
 		json.forEach(data => {
