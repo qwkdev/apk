@@ -1,0 +1,7 @@
+{
+  "template": ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."]],
+  "data": [
+    ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."]],
+    ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."]]
+  ]
+}
