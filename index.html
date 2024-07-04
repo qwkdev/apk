@@ -109,36 +109,35 @@
 
 	<script>
 		fetch("https://raw.githubusercontent.com/qwkdev/apk/main/data.json").then((res) => { if (!res.ok) { throw new Error(`HTTP error! Status: ${res.status}`); } return res.json(); }).then((rjson) => {
-			console.log(rjson);
-			console.log(rjson.data);
-			var json = rjson.data;
-			return json;
+			loadapps(rjson.data);
 		}).catch((error) => console.error("Unable to fetch json:", error));
 
-		json.forEach(data => {
-			var app = document.createElement("div");
-			app.classList.add("app");
-			
-			var info = document.createElement("div");
-			info.classList.add("info");
-			info.innerHTML = `
-<img src="https://raw.githubusercontent.com/qwkdev/apk/main/img/${data[0]}.jpg">
-<p class="name">${data[1]}</p>
-<p class="data">v${data[2]}<bullet></bullet>${data[3]}<bullet></bullet>${data[4]}</p>
-<a href="https://raw.githubusercontent.com/qwkdev/apk/main/apk/${data[0]}.apk" download>Download</a>`
-			app.appendChild(info);
-			
-			var mods = document.createElement("div");
-			mods.classList.add("mods");
-			data[5].forEach(mod => {
-				var modtxt = document.createElement("p");
-				modtxt.innerText = mod;
-				mods.appendChild(modtxt);
+		function loadapps(json) {
+			json.forEach(data => {
+				var app = document.createElement("div");
+				app.classList.add("app");
+				
+				var info = document.createElement("div");
+				info.classList.add("info");
+				info.innerHTML = `
+	<img src="https://raw.githubusercontent.com/qwkdev/apk/main/img/${data[0]}.jpg">
+	<p class="name">${data[1]}</p>
+	<p class="data">v${data[2]}<bullet></bullet>${data[3]}<bullet></bullet>${data[4]}</p>
+	<a href="https://raw.githubusercontent.com/qwkdev/apk/main/apk/${data[0]}.apk" download>Download</a>`
+				app.appendChild(info);
+				
+				var mods = document.createElement("div");
+				mods.classList.add("mods");
+				data[5].forEach(mod => {
+					var modtxt = document.createElement("p");
+					modtxt.innerText = mod;
+					mods.appendChild(modtxt);
+				});
+				app.appendChild(mods);
+	
+				document.getElementById("grid").appendChild(app);
 			});
-			app.appendChild(mods);
-
-			document.getElementById("grid").appendChild(app);
-		});
+		};
 	</script>
 </body>
 </html>
