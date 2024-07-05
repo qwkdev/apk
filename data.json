@@ -10,6 +10,6 @@
 		["toca-life-world", "Toca Life World", "1.90.2", "04/07/24", "AN1", ["Everything Unlocked"], "https://files.an1.co/toca-life-world-mod_1.90.2-an1.com.apk"],
 		["royal-match", "Royal Match", "22352", "04/07/24", "AN1", ["Stars Increase On Use", "Coins Increase On Use"], "https://files.an1.net/royal-match-mod_22352-an1.com.apk"],
 		["hogwarts-mystery", "Hogwarts Mystery", "5.9.6", "04/07/24", "AN1", ["Energy Doesn't Get Used"], "https://files.an1.net/harry-potter-mod_5.9.6-an1.com.apk"],
-		["bluetooth-spam", "BlueTooth LE Spam", "1.0.8", "04/07/24", "GitHub", ["Fake BlueTooth Signal Generator"], "https://github.com/simondankelmann/Bluetooth-LE-Spam/releases/download/v1.0.8/app-release.apk"]
+		["bluetooth-spam", "BlueTooth LE Spam", "1.0.8", "04/07/24", "GitHub", [], "https://github.com/simondankelmann/Bluetooth-LE-Spam/releases/download/v1.0.8/app-release.apk"]
 	]
 }
