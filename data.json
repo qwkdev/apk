@@ -1,15 +1,25 @@
 {
-	"template": ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."], "Download Link"],
+	"template": ["Image", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."], "Download Link"],
 	"data": [
-		["spotify", "Spotify", "8.9.52.552", "04/07/24", "LiteApks", ["Premium Unlocked"], "https://statics.liteapks.com/Spotify/8.9.52.552/Spotify%20v8.9.52.552%20%28Premium%29.apk"],
-		["pokemon-go", "Pokemon Go", "1.158.0", "04/07/24", "PGSharp", ["Teleport", "Joystick", "Auto Walk", "Enhanced Throw", "Nearby Radar", "More..."], "https://api.pgsharp.com/download"],
-		["geometry-dash", "Geometry Dash", "2.2.142", "04/07/24", "AN1", ["All skins", "Infinite Currency"], "https://files.an1.net/geometry-dash-mod_2.2.142-an1.com.apk"],
-		["stickman-hook", "Stickman Hook", "9.5.0", "04/07/24", "ApkMody", ["All skins", "VIP Unlocked"], "https://download.apkmody.cc/v2/jDB0"],
-		["subway-surfers", "Subway Surfers", "3.31.3", "04/07/24", "LiteApks", ["Free Shopping", "Unlimited Everything", "No Die", "Speed Hacks", "Multi Jump", "No Clip", "No Coin Pickup", "More..."], "https://statics.liteapks.com/Subway%20Surfers/subway-surfers-v3.31.3-mod1.apk"],
-		["fullroid", "Full Roid X", "1.4.0", "04/07/24", "LiteApks", ["Premium Unlocked"], "https://cloud.liteapks.com/download/Full%20Roid%20Emulator/FullRoid%20X%20v1.4.0%20(Premium)%20arm8.apk"],
-		["toca-life-world", "Toca Life World", "1.90.2", "04/07/24", "AN1", ["Everything Unlocked"], "https://files.an1.co/toca-life-world-mod_1.90.2-an1.com.apk"],
-		["royal-match", "Royal Match", "22352", "04/07/24", "AN1", ["Stars Increase On Use", "Coins Increase On Use"], "https://files.an1.net/royal-match-mod_22352-an1.com.apk"],
-		["hogwarts-mystery", "Hogwarts Mystery", "5.9.6", "04/07/24", "AN1", ["Energy Doesn't Get Used"], "https://files.an1.net/harry-potter-mod_5.9.6-an1.com.apk"],
-		["bluetooth-spam", "BlueTooth Spam", "1.0.8", "04/07/24", "GitHub", [], "https://github.com/simondankelmann/Bluetooth-LE-Spam/releases/download/v1.0.8/app-release.apk"]
+		["spotify.jpg", "Spotify", "8.9.52.552", "04/07/24", "LiteApks", ["Premium Unlocked"], "https://statics.liteapks.com/Spotify/8.9.52.552/Spotify%20v8.9.52.552%20%28Premium%29.apk"],
+		["pokemon-go.jpg", "Pokemon Go", "1.158.0", "04/07/24", "PGSharp", ["Teleport", "Joystick", "Auto Walk", "Enhanced Throw", "Nearby Radar", "More..."], "https://api.pgsharp.com/download"],
+		["geometry-dash.jpg", "Geometry Dash", "2.2.142", "04/07/24", "AN1", ["All skins", "Infinite Currency"], "https://files.an1.net/geometry-dash-mod_2.2.142-an1.com.apk"],
+		["stickman-hook.jpg", "Stickman Hook", "9.5.0", "04/07/24", "ApkMody", ["All skins", "VIP Unlocked"], "https://download.apkmody.cc/v2/jDB0"],
+		["subway-surfers.jpg", "Subway Surfers", "3.31.3", "04/07/24", "LiteApks", ["Free Shopping", "Unlimited Everything", "No Die", "Speed Hacks", "Multi Jump", "No Clip", "No Coin Pickup", "More..."], "https://statics.liteapks.com/Subway%20Surfers/subway-surfers-v3.31.3-mod1.apk"],
+		["fullroid.jpg", "Full Roid X", "1.4.0", "04/07/24", "LiteApks", ["Premium Unlocked"], "https://cloud.liteapks.com/download/Full%20Roid%20Emulator/FullRoid%20X%20v1.4.0%20(Premium)%20arm8.apk"],
+		["toca-life-world.jpg", "Toca Life World", "1.90.2", "04/07/24", "AN1", ["Everything Unlocked"], "https://files.an1.co/toca-life-world-mod_1.90.2-an1.com.apk"],
+		["royal-match.jpg", "Royal Match", "22352", "04/07/24", "AN1", ["Stars Increase On Use", "Coins Increase On Use"], "https://files.an1.net/royal-match-mod_22352-an1.com.apk"],
+		["hogwarts-mystery.jpg", "Hogwarts Mystery", "5.9.6", "04/07/24", "AN1", ["Energy Doesn't Get Used"], "https://files.an1.net/harry-potter-mod_5.9.6-an1.com.apk"],
+		["bluetooth-spam.jpg", "BlueTooth Spam", "1.0.8", "04/07/24", "GitHub", [], "https://github.com/simondankelmann/Bluetooth-LE-Spam/releases/download/v1.0.8/app-release.apk"],
+		
+		["pc2.png", "PC Creator 2", "4.3.5", "05/07/24", "AN1", ["Money Increases When Spent"], "https://files.an1.net/pc-creator-2-mod_4.3.5-an1.com.apk"],
+		["magic-tiles-3.png", "Magic Tiles 3", "11.064.004", "05/07/24", "AN1", ["Unlimited Money"], "https://files.an1.net/magic-tiles-3-mod_11.064.004-an1.com.apk"],
+		["turbo.png", "Turbp Tornado", "1.5.2", "05/07/24", "AN1", ["Unlimited Money"], "https://files.an1.co/turbo-tornado-mod_1.5.2-an1.com.apk"],
+		["going-balls.png", "Going Balls", "1.90", "05/07/24", "AN1", ["Unlimited Coins"], "https://files.an1.net/going-balls-mod_1.90-an1.com.apk"],
+		["skate.jpg", "True Skate", "1.5.81", "05/07/24", "AN1", ["Unimited Money"], "https://files.an1.net/true-skate-mod_1.5.81-an1.com.apk"],
+		["cs.png", "Critical Strike", "11.70", "05/07/24", "LiteApks", ["Infinite Ammo", "Rapid Fire", "No Recoil", "Speed Hacks", "Radar", "Wallhack", "BHOP", "Free Premium", "All Skins", "More..."], "https://cloud.liteapks.com/download/Critical%20Strike%20CS/critical-strike-cs-v11.70-mod3_installer..apk"],
+		["minecraft.webp", "Minecraft", "1.19.83.01", "05/07/24", "LiteApks", ["No Fall Damage", "Speed Hacks", "Jump Hacks", "Walk Through Walls", "Unlock Everything", "Wall Hack*", "Game Speed Hacks", "More..."], "https://cloud.liteapks.com/download/Minecraft/minecraft-v1.19.83.01-final-mod3.apk"],
+		["among-us.webp", "Among Us", "2024.6.18", "05/07/24", "LiteApks", ["No Clip", "Spam Report", "No Meeting Cooldown", "Close All Doors", "Vent", "Sabotage", "Teleport Outside", "Spectate", "Speed Hack", "Torch Hack", "ESP", "Kill Player", "Change Roles", "End Game", "Anti Vote", "Redirect Vote", "Complete All Tasks", "Change Account Name", "All Skins", "More..."], "https://statics.liteapks.com/Among%20Us/among-us-v2024.6.18-mod3.apk"],
+		["drift.webp", "Drift Max Pro", "2.5.59", "05/07/24", "LiteApks", ["All Cars", "Unlimited Money"], "https://statics.liteapks.com/Drift%20Max%20Pro/drift-max-pro-v2.5.59-mod.apk"]
 	]
 }
