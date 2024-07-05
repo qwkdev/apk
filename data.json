@@ -1,15 +1,15 @@
 {
 	"template": ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."]],
 	"data": [
-		["spotify", "Spotify", "8.9.52.552", "04/07/24", "LiteApks", ["Premium Unlocked"]],
-		["pokemon-go", "Pokemon Go", "1.158.0", "04/07/24", "PGSharp", ["Teleport", "Joystick", "Auto Walk", "Enhanced Throw", "Nearby Radar", "More..."]],
-		["geometry-dash", "Geometry Dash", "2.2.142", "04/07/24", "AN1", ["All skins", "Infinite Currency"]],
-		["stickman-hook", "Stickman Hook", "9.5.0", "04/07/24", "ApkMody", ["All skins", "VIP Unlocked"]],
-		["subway-surfers", "Subway Surfers", "3.31.3", "04/07/24", "LiteApks", ["Free Shopping", "Unlimited Everything", "No Die", "Speed Hacks", "Multi Jump", "No Clip", "No Coin Pickup", "More..."]],
-		["fullroid", "Full Roid X", "1.4.0", "04/07/24", "LiteApks", ["Premium Unlocked"]],
-		["toca-life-world", "Toca Life World", "1.90.2", "04/07/24", "AN1", ["Everything Unlocked"]],
-		["royal-match", "Royal Match", "22352", "04/07/24", "AN1", ["Stars Increase On Use", "Coins Increase On Use"]],
-		["hogwarts-mystery", "Hogwarts Mystery", "5.9.6", "04/07/24", "AN1", ["Energy Doesn't Get Used"]],
-		["bluetooth-spam", "BlueTooth LE Spam", "1.0.8", "04/07/24", "GitHub", ["Fake BlueTooth Signal Generator"]]
+		["spotify", "Spotify", "8.9.52.552", "04/07/24", "LiteApks", ["Premium Unlocked"], "https://statics.liteapks.com/Spotify/8.9.52.552/Spotify%20v8.9.52.552%20%28Premium%29.apk"],
+		["pokemon-go", "Pokemon Go", "1.158.0", "04/07/24", "PGSharp", ["Teleport", "Joystick", "Auto Walk", "Enhanced Throw", "Nearby Radar", "More..."], "https://api.pgsharp.com/download"],
+		["geometry-dash", "Geometry Dash", "2.2.142", "04/07/24", "AN1", ["All skins", "Infinite Currency"], "https://files.an1.net/geometry-dash-mod_2.2.142-an1.com.apk"],
+		["stickman-hook", "Stickman Hook", "9.5.0", "04/07/24", "ApkMody", ["All skins", "VIP Unlocked"], "https://download.apkmody.cc/v2/jDB0"],
+		["subway-surfers", "Subway Surfers", "3.31.3", "04/07/24", "LiteApks", ["Free Shopping", "Unlimited Everything", "No Die", "Speed Hacks", "Multi Jump", "No Clip", "No Coin Pickup", "More..."], "https://statics.liteapks.com/Subway%20Surfers/subway-surfers-v3.31.3-mod1.apk"],
+		["fullroid", "Full Roid X", "1.4.0", "04/07/24", "LiteApks", ["Premium Unlocked"], "https://cloud.liteapks.com/download/Full%20Roid%20Emulator/FullRoid%20X%20v1.4.0%20(Premium)%20arm8.apk"],
+		["toca-life-world", "Toca Life World", "1.90.2", "04/07/24", "AN1", ["Everything Unlocked"], "https://files.an1.co/toca-life-world-mod_1.90.2-an1.com.apk"],
+		["royal-match", "Royal Match", "22352", "04/07/24", "AN1", ["Stars Increase On Use", "Coins Increase On Use"], "https://files.an1.net/royal-match-mod_22352-an1.com.apk"],
+		["hogwarts-mystery", "Hogwarts Mystery", "5.9.6", "04/07/24", "AN1", ["Energy Doesn't Get Used"], "https://files.an1.net/harry-potter-mod_5.9.6-an1.com.apk"],
+		["bluetooth-spam", "BlueTooth LE Spam", "1.0.8", "04/07/24", "GitHub", ["Fake BlueTooth Signal Generator"], "https://github.com/simondankelmann/Bluetooth-LE-Spam/releases/download/v1.0.8/app-release.apk"]
 	]
 }
