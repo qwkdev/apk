@@ -1,5 +1,5 @@
 {
-	"template": ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."]],
+	"template": ["ID", "Name", "Version", "Upload Date", "Maker", ["Mod 1", "Mod 2", "etc..."], "Download Link"],
 	"data": [
 		["spotify", "Spotify", "8.9.52.552", "04/07/24", "LiteApks", ["Premium Unlocked"], "https://statics.liteapks.com/Spotify/8.9.52.552/Spotify%20v8.9.52.552%20%28Premium%29.apk"],
 		["pokemon-go", "Pokemon Go", "1.158.0", "04/07/24", "PGSharp", ["Teleport", "Joystick", "Auto Walk", "Enhanced Throw", "Nearby Radar", "More..."], "https://api.pgsharp.com/download"],
