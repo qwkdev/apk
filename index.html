@@ -16,6 +16,7 @@
 			grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
 		}
 		.app {
+			height: min-content;
 			background: rgba(245, 245, 255, .12);
 			border: 5px solid rgba(255, 255, 255, .15);
 			border-radius: 50px;
@@ -105,6 +106,71 @@
 		.app:hover {
 			transform: scale(1.01);
 		}
+
+		@media (max-width: 1010px) {
+			#grid {
+				gap: 6.21vw;
+				margin: 6.21vw;
+				width: 87.59vw;
+				grid-template-columns: 87.59vw !important;
+			}
+			.app {
+				width: 79.31vw !important;
+				border-radius: 6.9vw !important;
+				padding: 4.14vw !important;
+
+				img {
+					width: 23.45vw !important;
+				}
+
+				.info {
+					grid-template-rows: 10.34vw calc(100% - 10.34vw) !important;
+
+					.name {
+						font-size: 4.83vw !important;
+						margin: 0 2.76vw !important;
+						height: 6.9vw !important;
+						line-height: 6.9vw !important;
+					}
+					.data {
+						height: 2.76vw !important;
+						margin: 6.41vw 2.76vw 1.38vw !important;
+						font-size: 2.34vw !important;
+						line-height: 2.76vw !important;
+
+						bullet::before {
+							font-size: 3.03vw !important;
+							margin: 0 1.38vw !important;
+						}
+					}
+
+					a {
+						width: 48.41vw !important;
+						height: 11.59vw !important;
+						margin: 0 2.34vw !important;
+						border-radius: 3.45vw !important;
+						font-size: 5.52vw !important;
+						line-height: 10.76vw !important;
+						border: .69vw solid #00ff00 !important;
+						box-shadow: 0 0 6.9vw -1.38vw #00ff0077 !important;
+					}
+					a:hover {
+						box-shadow: 0 0 6.9vw -1.38vw #00ff00 !important;
+					}
+				}
+				.mods {
+					margin-top: 3.45vw !important;
+					border: .69vw solid rgba(255, 255, 255, .12) !important;
+					border-radius: 3.45vw !important;
+					
+					p {
+						font-size: 2.76vw !important;
+						height: min-content !important;
+						line-height: 6.21vw !important;
+					}
+				}
+			}
+		}
 	</style>
 </head>
 <body>
@@ -130,7 +196,7 @@
 	<a href="${data[6]}" download>Download</a>`
 				app.appendChild(info);
 
-				if (data[5] !== []) {
+				if (data[5].length !== 0) {
 					var mods = document.createElement("div");
 					mods.classList.add("mods");
 					data[5].forEach(mod => {
