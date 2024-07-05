@@ -129,16 +129,18 @@
 	<p class="data">v${data[2]}<bullet></bullet>${data[3]}<bullet></bullet>${data[4]}</p>
 	<a href="${data[6]}" download>Download</a>`
 				app.appendChild(info);
+
+				if (data[5] !== []) {
+					var mods = document.createElement("div");
+					mods.classList.add("mods");
+					data[5].forEach(mod => {
+						var modtxt = document.createElement("p");
+						modtxt.innerText = mod;
+						mods.appendChild(modtxt);
+					});
+					app.appendChild(mods);
+				}
 				
-				var mods = document.createElement("div");
-				mods.classList.add("mods");
-				data[5].forEach(mod => {
-					var modtxt = document.createElement("p");
-					modtxt.innerText = mod;
-					mods.appendChild(modtxt);
-				});
-				app.appendChild(mods);
-	
 				document.getElementById("grid").appendChild(app);
 			});
 		};
